@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "era": "2022-2024",
+    "notes": "Baselines from laps 2\u20134 (absolute lap_time_s); slopes from \u0394-time with driver FE (Huber linear). Per-track Medium interpolated from Soft/Hard where missing; remaining NaNs filled with era means."
+  },
+  "global": {
+    "Soft": {
+      "baseline_s": 88.72200000000001,
+      "slope_s_per_lap": -0.06775325810967471
+    },
+    "Medium": {
+      "baseline_s": 89.99600000000001,
+      "slope_s_per_lap": 0.0003760567522087543
+    },
+    "Hard": {
+      "baseline_s": 88.2385,
+      "slope_s_per_lap": 0.014178860470645493
+    }
+  },
+  "per_track": {
+    "Abu Dhabi Grand Prix": {
+      "Soft": {
+        "baseline_s": 89.762,
+        "slope_s_per_lap": 0.0556965565460444
+      },
+      "Medium": {
+        "baseline_s": 90.7315,
+        "slope_s_per_lap": 0.04287455851553323
+      },
+      "Hard": {
+        "baseline_s": 90.038,
+        "slope_s_per_lap": -0.012080239760169982
+      }
+    },
+    "Australian Grand Prix": {
+      "Soft": {
+        "baseline_s": 81.288,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 85.76,
+        "slope_s_per_lap": 0.05973249122851321
+      },
+      "Hard": {
+        "baseline_s": 83.9725,
+        "slope_s_per_lap": 0.015672722896597917
+      }
+    },
+    "Austrian Grand Prix": {
+      "Soft": {
+        "baseline_s": 87.16785294117646,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 69.952,
+        "slope_s_per_lap": 0.04536541392163154
+      },
+      "Hard": {
+        "baseline_s": 89.10902631578948,
+        "slope_s_per_lap": -0.017528662974650402
+      }
+    },
+    "Bahrain Grand Prix": {
+      "Soft": {
+        "baseline_s": 97.1365,
+        "slope_s_per_lap": -0.07004401257424245
+      },
+      "Medium": {
+        "baseline_s": 97.566,
+        "slope_s_per_lap": -0.009187930599276334
+      },
+      "Hard": {
+        "baseline_s": 95.762,
+        "slope_s_per_lap": 0.05166815137568978
+      }
+    },
+    "British Grand Prix": {
+      "Soft": {
+        "baseline_s": 92.29,
+        "slope_s_per_lap": -0.0835834467271326
+      },
+      "Medium": {
+        "baseline_s": 93.596,
+        "slope_s_per_lap": -0.021035978389655735
+      },
+      "Hard": {
+        "baseline_s": 92.83,
+        "slope_s_per_lap": 0.01105423263407342
+      }
+    },
+    "Canadian Grand Prix": {
+      "Soft": {
+        "baseline_s": 87.16785294117646,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 81.898,
+        "slope_s_per_lap": 0.057807498802496256
+      },
+      "Hard": {
+        "baseline_s": 80.258,
+        "slope_s_per_lap": -0.08061465064101407
+      }
+    },
+    "Dutch Grand Prix": {
+      "Soft": {
+        "baseline_s": 75.811,
+        "slope_s_per_lap": 0.01443127260421957
+      },
+      "Medium": {
+        "baseline_s": 74.841,
+        "slope_s_per_lap": -0.03196065529511919
+      },
+      "Hard": {
+        "baseline_s": 77.874,
+        "slope_s_per_lap": -0.07835258319445795
+      }
+    },
+    "Emilia Romagna Grand Prix": {
+      "Soft": {
+        "baseline_s": 79.57249999999999,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 84.93,
+        "slope_s_per_lap": -0.019166844259285963
+      },
+      "Hard": {
+        "baseline_s": 82.735,
+        "slope_s_per_lap": -0.04749377712315168
+      }
+    },
+    "Hungarian Grand Prix": {
+      "Soft": {
+        "baseline_s": 83.488,
+        "slope_s_per_lap": 0.17691145144190948
+      },
+      "Medium": {
+        "baseline_s": 84.805,
+        "slope_s_per_lap": 0.025354078549992685
+      },
+      "Hard": {
+        "baseline_s": 84.385,
+        "slope_s_per_lap": 0.012031076773986975
+      }
+    },
+    "Italian Grand Prix": {
+      "Soft": {
+        "baseline_s": 85.852,
+        "slope_s_per_lap": -0.05802735387221479
+      },
+      "Medium": {
+        "baseline_s": 86.93,
+        "slope_s_per_lap": 0.01860251363447359
+      },
+      "Hard": {
+        "baseline_s": 86.7535,
+        "slope_s_per_lap": 0.0034766497959907573
+      }
+    },
+    "Japanese Grand Prix": {
+      "Soft": {
+        "baseline_s": 99.811,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 98.6855,
+        "slope_s_per_lap": -0.004935762770649264
+      },
+      "Hard": {
+        "baseline_s": 96.5815,
+        "slope_s_per_lap": -0.017528662974650402
+      }
+    },
+    "Las Vegas Grand Prix": {
+      "Soft": {
+        "baseline_s": 87.16785294117646,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 99.2515,
+        "slope_s_per_lap": 0.01450277393314431
+      },
+      "Hard": {
+        "baseline_s": 98.988,
+        "slope_s_per_lap": 0.01450277393314431
+      }
+    },
+    "Mexico City Grand Prix": {
+      "Soft": {
+        "baseline_s": 85.49000000000001,
+        "slope_s_per_lap": -0.03201725515373711
+      },
+      "Medium": {
+        "baseline_s": 83.9275,
+        "slope_s_per_lap": 0.02368447436116536
+      },
+      "Hard": {
+        "baseline_s": 83.717,
+        "slope_s_per_lap": 0.035200051633519164
+      }
+    },
+    "Miami Grand Prix": {
+      "Soft": {
+        "baseline_s": 93.61949999999999,
+        "slope_s_per_lap": 0.005427987906504915
+      },
+      "Medium": {
+        "baseline_s": 93.755,
+        "slope_s_per_lap": -0.003553780850150748
+      },
+      "Hard": {
+        "baseline_s": 93.368,
+        "slope_s_per_lap": -0.0268170083669702
+      }
+    },
+    "Monaco Grand Prix": {
+      "Soft": {
+        "baseline_s": 77.66,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 82.91300000000001,
+        "slope_s_per_lap": -0.045849561224211
+      },
+      "Hard": {
+        "baseline_s": 83.698,
+        "slope_s_per_lap": -0.030621172462984333
+      }
+    },
+    "Qatar Grand Prix": {
+      "Soft": {
+        "baseline_s": 86.6035,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 88.59,
+        "slope_s_per_lap": -0.18815735502614073
+      },
+      "Hard": {
+        "baseline_s": 87.3655,
+        "slope_s_per_lap": -0.11053721235753317
+      }
+    },
+    "Saudi Arabian Grand Prix": {
+      "Soft": {
+        "baseline_s": 92.57,
+        "slope_s_per_lap": 0.07897229999835624
+      },
+      "Medium": {
+        "baseline_s": 95.512,
+        "slope_s_per_lap": 0.007361870669088194
+      },
+      "Hard": {
+        "baseline_s": 94.7365,
+        "slope_s_per_lap": -0.032797289048885424
+      }
+    },
+    "Singapore Grand Prix": {
+      "Soft": {
+        "baseline_s": 97.425,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 99.29,
+        "slope_s_per_lap": 0.019599916875240465
+      },
+      "Hard": {
+        "baseline_s": 98.081,
+        "slope_s_per_lap": 0.007182807714412755
+      }
+    },
+    "Spanish Grand Prix": {
+      "Soft": {
+        "baseline_s": 88.304,
+        "slope_s_per_lap": 0.020577375945193956
+      },
+      "Medium": {
+        "baseline_s": 88.276,
+        "slope_s_per_lap": -0.05689259271028087
+      },
+      "Hard": {
+        "baseline_s": 79.948,
+        "slope_s_per_lap": 0.030812666706527537
+      }
+    },
+    "S\u00e3o Paulo Grand Prix": {
+      "Soft": {
+        "baseline_s": 75.1705,
+        "slope_s_per_lap": -0.046988194965512764
+      },
+      "Medium": {
+        "baseline_s": 76.7765,
+        "slope_s_per_lap": 0.018882381030157946
+      },
+      "Hard": {
+        "baseline_s": 89.10902631578948,
+        "slope_s_per_lap": -0.017528662974650402
+      }
+    },
+    "United States Grand Prix": {
+      "Soft": {
+        "baseline_s": 87.16785294117646,
+        "slope_s_per_lap": 0.005577880104489896
+      },
+      "Medium": {
+        "baseline_s": 98.70400000000001,
+        "slope_s_per_lap": -0.05667852858030149
+      },
+      "Hard": {
+        "baseline_s": 101.98,
+        "slope_s_per_lap": -0.07780313405248308
+      }
+    }
+  }
+}
